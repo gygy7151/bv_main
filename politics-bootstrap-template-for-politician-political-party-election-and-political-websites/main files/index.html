@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Politics - A template for politician, political party and election</title>
+
+
+	<!-- FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+
+	<!-- STYLESHEET -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" media="print" href="css/style.css">
+	<style>
+	@media screen and (max-width:320px){
+		body {
+			background-color:orange;
+		}
+	}
+	</style>
+
+
+</head>
+<body class="home" data-spy="scroll" data-target=".politics-navbar">
+
+	<!-- SITE HEADER -->
+	<header class="site-header">
+		<div class="top-bar">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 trending-topics hidden-sm hidden-xs">
+						<h4>Bluevulpe</h4>
+					</div> <!-- .col-md-6 ends -->
+					<div class="col-md-6 social-links">
+						<button class="btn btn-main btn-sm pull-right"><a href="https://www.youtube.com/channel/UC8tyIHA9NzE3FcttppU8Wfg">myYoutube</a></button>
+						<ul class="list-inline">
+							<li><a href="https://github.com/gygy7151?tab=repositories"><i class="<icon ion-social-octocat"></i></a></li>
+							<li><a href="https://clubhousedb.com/user/egoi_ja270"><i class="icon ion-social-instagram-outline"></i></a></li>
+							<li><a href="https://kr.linkedin.com/in/gygy7151?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="icon ion-social-linkedin-outline"></i></a></li>
+						</ul>
+
+					</div> <!-- .col-md-6 ends -->
+				</div> <!-- .row ends -->
+			</div> <!-- .container-fluid ends -->
+		</div> <!-- .top-bar ends -->
+		<nav class="navbar navbar-default politics-navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#politics-navbar-real" area-expanded="false">
+
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+
+					</button>
+
+<!--					<a class="navbar-brand" href="#">Politics</a>-->
+				</div> <!-- .navbar-header ends -->
+				<div class="collapse navbar-collapse" id="politics-navbar-real">
+					<ul class="nav navbar-nav navbar-left">
+						<li class="active"><a data-scroll href="#site-header">Home <span class="sr-only">(current)</span></a></li>
+						<li><a data-scroll href="#latest-news">Contents</a></li>
+						<li><a data-scroll href="#press-release">Post</a></li>
+					</ul> <!-- .nav navbar-nav ends -->
+
+					<ul class="nav navbar-nav navbar-right">
+	
+						<li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="#">아이유(IU)fanpage</a></li>
+								<li><a href="#">Apple</a></li>
+								<li><a href="#">Zara</a></li>
+							</ul> <!-- .dropdown-menu ends -->
+
+						</li> <!-- .dropdown ends -->
+					</ul> <!-- .nav navbar-nav ends -->
+				</div> <!-- .collapse navbar-collapse ends -->
+			</div> <!-- .container ends -->
+		</nav> <!-- .navbar navbar-default ends -->
+		
+	</header> <!-- .site-header ends -->
+
+	<!-- SLIDER -->
+
+	<section class="politics-slider" id="politics-slider">
+		<div class="carousel slide politics-carousel" id="politics-carousel" data-ride="carousel">
+
+			<ol class="carousel-indicators">
+				<li data-target="politics-carousel" data-slide-to="0" class="active"></li>
+				<li data-target="politics-carousel" data-slide-to="1"></li>
+			</ol> <!-- .carousel-indicators ends -->
+
+			<div class="carousel-inner">
+				<div class="item active">
+					<img class="carousel-bg" src="./img/bvp01.jpeg" alt="bluevulpe main">
+					<div class="carousel-caption">
+						<div class="caption-image">
+							<img data-animation="animated fadeInRight" src="./img/ep4.jpeg" alt="caption image">
+						</div> <!-- .caption-image ends -->
+						<div class="caption-content">
+							<h1><small data-animation="animated fadeInDown">Welcome</small>  <span data-animation="animated fadeInRight">Bluevulpe's coding diary</span></h1>
+							<p data-animation="animated fadeInUp">
+								Hi. There! Here is Bluevulpe's coding diary.<br>you can see contents for who starts to code<br>with git repo and books
+							</p>
+							<button class="btn btn-main btn-lg" data-animation="animated fadeInUp"><a href="">See More</a></button>
+						</div> <!-- .caption-content ends -->
+						
+					</div> <!-- .carousel-caption ends -->
+				</div> <!-- .item active ends -->
+				<div class="item">
+					<img class="carousel-bg" src="./img/pf1.JPG" alt="carousel image">
+					<div class="carousel-caption">
+					
+						<div class="caption-content">
+							<h1><small data-animation="animated fadeInDown"></small> <span data-animation="animated fadeInDown"></span>Meet Bluevulpe</h1>
+							<p data-animation="animated fadeInUp">
+								Whenever you want to talk with Bluevulpe,<br>
+								ping Bluevulpe and talk with Bluevulpe<br>
+								Bluevulpe always feels honor to be with you all:)
+							</p>
+							<button class="btn btn-main btn-lg" data-animation="animated fadeInUp"><a href="https://clubhousedb.com/user/egoi_ja270" target="_new">Start a Room</a></button>
+						</div> <!-- .caption-content ends -->
+						
+					</div> <!-- .carousel-caption ends -->
+				</div> <!-- .item active ends -->
+			</div> <!-- .carousel-inner ends -->
+
+			<!-- CONTROLS -->
+			<a class="left carousel-control" href="#politics-carousel" role="button" data-slide="prev">
+				<span class="icon ion-ios-arrow-back" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a> <!-- .left carousel-control ends -->
+
+			<a class="right carousel-control" href="#politics-carousel" role="button" data-slide="next">
+				<span class="icon ion-ios-arrow-forward" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a> <!-- .right carousel-control ends -->
+
+		</div> <!-- .carousel slide ends -->
+	</section> <!-- .politics-slider ends -->
+
+	<!-- INTRO SECTION -->
+
+	<section class="intro-section section-block" id="intro-section">
+		<!--<div class="container">
+			<div class="section-title-block">
+				<h2>Welcome <span>to the world of Politics</span></h2>
+				<div class="title-style">
+					<i class="icon ion-ios-star"></i>
+					<i class="icon ion-ios-star"></i>
+					<i class="icon ion-ios-star"></i>
+				</div>
+				<p>
+					Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident.
+				</p>-->
+			</div> <!-- .section-title-block ends -->
+
+<!--			<div class="row section-content">
+				<div class="col-lg-3">
+					<div class="content-wrapper">
+						<div class="icon-block"><i class="icon ion-ios-world-outline"></i></div>
+						<h3><a href="#">Our Mandate</a></h3>
+						<p>
+							Nolabore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud mmodo autit.
+						</p>-->
+					</div> <!-- .content-wrapper ends -->
+				</div> <!-- col-lg-3 ends -->
+
+<!--				<div class="col-lg-3">
+					<div class="content-wrapper">
+						<div class="icon-block"><i class="icon ion-ios-chatboxes-outline"></i></div>
+						<h3><a href="#">Election Campaign</a></h3>
+						<p>
+							Nolabore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud mmodo autit.
+						</p>-->
+					</div> <!-- .content-wrapper ends -->
+				</div> <!-- col-lg-3 ends -->
+
+<!--				<div class="col-lg-3">
+					<div class="content-wrapper">
+						<div class="icon-block"><i class="icon ion-ios-personadd-outline"></i></div>
+						<h3><a href="#">Get involved</a></h3>
+						<p>
+							Nolabore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud mmodo autit.
+						</p>-->
+					</div> <!-- .content-wrapper ends -->
+				</div> <!-- col-lg-3 ends -->
+
+<!--				<div class="col-lg-3">
+					<div class="content-wrapper">
+						<div class="icon-block"><i class="icon ion-ios-color-wand-outline"></i></div>
+						<h3><a href="#">Make Donation</a></h3>
+						<p>
+							Nolabore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud mmodo autit.
+						</p>-->
+					</div> <!-- .content-wrapper ends -->
+				</div> <!-- col-lg-3 ends -->
+			</div> <!-- .row section-content ends -->
+		</div> <!-- .container ends -->
+	</section> <!-- .intro-section ends -->
+
+
+	<!-- LATEST CONTENTS -->
+
+	<section class="latest-news section-block-2" id="latest-news">
+		<div class="container">
+			<div class="section-title-block-2">
+				<h3>Whats New</h3>
+				<p>
+					Come to see new updated episode about Bluevulpe's diary
+				</p>
+			</div> <!-- .section-title-block-2 ends -->
+
+			<div class="row section-content">
+				<div class="col-md-6 featured-news">
+					<div class="news-wrapper">
+						<img class="img-responsive" src="./img/ep2.jpeg" alt="latest news image">
+
+						<div class="news-content">
+							<a class="news-category" href="#">3weeks ago</a>
+							<div class="content-wrapper">
+								<h4>[Vlog]벚꽃 볼래요?(feat.방구석꽃구경)</h4>
+								<p>
+									Seoul Cherry Blossoms  <a class="read-more-link" href="#">Continue</a>
+								</p>
+							</div> <!-- .content-wrapper ends -->
+						</div> <!-- .news-content ends -->
+					</div> <!-- .news-wrapper ends -->
+				</div> <!-- .col-md-6 ends -->
+
+				<div class="col-md-6 news-block">
+					<div class="row">
+						<div class="col-sm-6 news-item">
+							<div class="item-wrapper">
+								<img class="img-responsive" src="./img/ep6.jpeg" alt="latest news image">
+
+								<div class="item-content">
+									<span class="item-date">March 9, 2021</span>
+									<h4>WELCOME TO BLUE VULPE's LIBRARY|DATA MODELING</h4>
+								</div> <!-- .item-content ends -->
+							</div> <!-- .item-wrapper ends -->
+						</div> <!-- .col-md-6 news-item ends -->
+
+						<div class="col-sm-6 news-item">
+							<div class="item-wrapper">
+								<img class="img-responsive" src="./img/ep5.jpeg" alt="latest news image">
+
+								<div class="item-content">
+									<span class="item-date">March 28, 2021</span>
+									<h4>WELCOME TO K-NOODLES</h4>
+								</div> <!-- .item-content ends -->
+							</div> <!-- .item-wrapper ends -->
+						</div> <!-- .col-md-6 news-item ends -->
+
+						<div class="col-sm-6 news-item">
+							<div class="item-wrapper">
+								<img class="img-responsive" src="./img/ep2.jpeg" alt="latest news image">
+
+								<div class="item-content">
+									<span class="item-date">Dec 27, 2020</span>
+									<h4>HOW TO APPLY 300 COMPANIES IN KOREA</h4>
+								</div> <!-- .item-content ends -->
+							</div> <!-- .item-wrapper ends -->
+						</div> <!-- .col-md-6 news-item ends -->
+
+						<div class="col-sm-6 news-item">
+							<div class="item-wrapper">
+								<img class="img-responsive" src="./img/ep1.jpeg" alt="latest news image">
+
+								<div class="item-content">
+									<span class="item-date">Feb 7, 2021</span>
+									<h4>SHOPPING WITH ME| UNIQLO H&M Charse&Keith</h4>
+								</div> <!-- .item-content ends -->
+							</div> <!-- .item-wrapper ends -->
+						</div> <!-- .col-md-6 news-item ends -->
+					</div> <!-- .row ends -->
+				</div> <!-- .col-md-6 news-block ends -->
+			</div> <!-- .row section-content ends -->
+		</div> <!-- .container ends -->
+	</section> <!-- .latest-news ends -->
+
+
+	<!-- LEARN KOREAN LANGUAGE -->
+
+	<section class="featured-content" id="featured-content">		
+		<div class="container">
+			<div class="content-block">
+				<h2>Learn Korean Language<br>with Bluevulpe</h2>
+				<p>
+					If you want to level up your pronunciation or intonation of speaking Korean<br>
+					let's join wiht Bluevulpe's Korean Tutoring<br>
+					you can feel vibe of live Seoul!	
+				</p>
+				<button class="btn btn-main btn-normal">Learn More</button>
+			</div> <!-- .content-block ends -->
+			<div class="image-block">
+				<img class="img-responsive" src="./img/krcon.jpeg" alt="man image 2">
+			</div> <!-- .image-block ends -->
+		</div> <!-- .container ends -->
+	</section> <!-- .featured-content ends -->
+
+	<!-- POSTS RELEASE -->
+
+	<section class="press-release section-block-2" id="press-release">
+		<div class="container">
+			<div class="section-title-block-2">
+				<h3>Posts</h3>
+				<p>
+					Bluevulpe' Daily Moments 
+				</p>
+			</div> <!-- .section-title-block-2 ends -->
+
+			<div class="row section-content">
+				<div class="col-md-4">
+					<div class="image-block">
+						<img class="img-responsive" src="./img/bluelt.jpeg" alt="press release image">
+					</div> <!-- .image-block ends -->
+
+					<div class="content-block">
+						<h3>Epteur sint ocecat cutat no</h3>
+
+						<div class="content-details">
+							<span class="press-date">May 24, 2016</span>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor dolore mag culit anim id est laborum.
+							</p>
+							<a class="read-more-link" href="#">See More</a>
+						</div> <!-- .content-details ends -->
+					</div> <!-- .content-block ends -->
+				</div> <!-- .col-md-4 ends -->
+
+				<div class="col-md-4">
+					<div class="image-block">
+						<img class="img-responsive" src="./img/sunset.jpeg" alt="press release image">
+					</div> <!-- .image-block ends -->
+
+					<div class="content-block">
+						<h3>Epteur sint ocecat cutat no</h3>
+
+						<div class="content-details">
+							<span class="press-date">May 24, 2016</span>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor dolore mag culit anim id est laborum.
+							</p>
+							<a class="read-more-link" href="#">See More</a>
+						</div> <!-- .content-details ends -->
+					</div> <!-- .content-block ends -->
+				</div> <!-- .col-md-4 ends -->
+
+				<div class="col-md-4">
+					<div class="image-block">
+						<img class="img-responsive" src="./img/flower1.JPG" alt="press release image">
+					</div> <!-- .image-block ends -->
+
+					<div class="content-block">
+						<h3>Epteur sint ocecat cutat no</h3>
+
+						<div class="content-details">
+							<span class="press-date">May 24, 2016</span>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor dolore mag culit anim id est laborum.
+							</p>
+							<a class="read-more-link" href="#">See More</a>
+						</div> <!-- .content-details ends -->
+					</div> <!-- .content-block ends -->
+				</div> <!-- .col-md-4 ends -->
+			</div> <!-- .row section-content ends -->
+		</div> <!-- .container ends -->
+	</section> <!-- .press-release ends -->
+
+
+	<!-- VOLUNTEER BANNER -->
+
+	<section class="volunteer-banner" id="volunteer-banner">
+		<div class="container">
+			<div class="content-block">
+				<h2>Read Bluevulpe's coding&cloubhouse diary</h2>
+				<p>
+					Bluevulpe has uploaded her diary of logs after coding<br>
+					and even also after speakers in clubhouse's room having various topics:)
+				</p>
+				<button class="btn btn-main btn-normal">See Now</button>
+			</div> <!-- .content-block ends -->
+			<div class="image-block">
+				<img class="img-responsive" src="./img/bv_circle.jpg" alt="volunteers">
+			</div> <!-- .image-block ends -->
+		</div> <!-- .container ends -->
+	</section> <!-- .volunteer-banner ends -->
+
+
+
+
+	<!-- SCRIPTS -->
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/jquery.downCount.js"></script>
+	<script type="text/javascript" src="js/jquery.countTo.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
