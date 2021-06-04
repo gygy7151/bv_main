@@ -78,7 +78,7 @@
 }
 .btn-main {
   background: #fdff85;
-  color: #ffffff;
+  color: #02368F;
   border-radius: 0;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -296,6 +296,11 @@ ul {
 /*==============================
 	HEADER
  ===============================*/
+#main-nav {
+  padding: 5px;
+}
+
+
 .top-bar {
   padding: .5em 1em;
   background: #ffffff;
@@ -479,7 +484,7 @@ ul {
 	politics SLIDER
  ===============================*/
 .politics-carousel .carousel-inner {
-  height: 660px;
+  height: 600px;
 }
 .politics-carousel .item {
   height: 660px;
