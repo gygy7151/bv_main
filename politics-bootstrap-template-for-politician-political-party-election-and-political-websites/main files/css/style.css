@@ -34,6 +34,7 @@
 	22. FOOTER
 	23. BLOG PAGE
 	24. CONTACT PAGE
+  25. POSTSLIDER
 	
 
 
@@ -2536,3 +2537,23 @@ ul {
 /*==============================
 	HEADER
  ===============================*/
+
+
+ /*==============================
+	25.POST SLIDER
+ ===============================*/
+.post-slider{
+  border:1px solid red;
+}
+.post-slider .post-wrapper{
+  width:84%;
+  height:350px;
+  margin:0px auto;
+  border:1px dashed red;
+}
+.post-slider .post-wrapper .post{
+  width:300px;
+  height:350px;
+  display:inline-block;
+  background:gray;
+}
