@@ -77,7 +77,7 @@
   transition: .3s;
 }
 .btn-main {
-  background: #f7ef0d;
+  background: #fdff85;
   color: #ffffff;
   border-radius: 0;
   font-family: 'Montserrat', sans-serif;
@@ -89,7 +89,7 @@
 }
 .btn-main:focus {
   color: #ffffff;
-  background: #971825;
+  background: #6e76dd;
   outline: none;
 }
 .btn-normal {
@@ -114,7 +114,7 @@
 }
 .section-title-block h2 span {
   font-size: 16px;
-  color: #c31f30;
+  color:#6e76dd;
   display: block;
   margin-top: 8px;
   letter-spacing: 5px;
@@ -378,21 +378,21 @@ ul {
   padding: 18px 24px;
 }
 .politics-navbar .navbar-nav li a:hover {
-  color: #fff705;
+  color: #8E9CFF;
 }
 .politics-navbar .navbar-nav li a:focus {
-  color: #fff705;
+  color: #8E9CFF;
 }
 .politics-navbar .navbar-nav li.active a {
-  background: #fff705;
+  background: #8E9CFF;
   color: #ffffff;
 }
 .politics-navbar .navbar-nav li.active a:hover {
-  background: #fff705;
+  background: #8E9CFF;
   color: #ffffff;
 }
 .politics-navbar .navbar-nav li.active a:focus {
-  background: #fff705;
+  background: #8E9CFF;
   color: #ffffff;
 }
 .politics-navbar .navbar-nav li.dropdown a {
