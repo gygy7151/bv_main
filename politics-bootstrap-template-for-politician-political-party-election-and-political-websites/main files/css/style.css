@@ -2542,18 +2542,21 @@ ul {
  /*==============================
 	25.POST SLIDER
  ===============================*/
-.post-slider{
-  border:1px solid red;
-}
+  .post-slider{
+    border:1px solid red;
+  
+  }
+
+
 .post-slider .post-wrapper{
-  width:84%;
-  height:350px;
+  width:100%;
+  height:100%;
   margin:0px auto;
   border:1px dashed red;
 }
 .post-slider .post-wrapper .post{
-  width:300px;
-  height:350px;
+  width:100%;
+  height:100%;
   display:inline-block;
   background:gray;
 }
