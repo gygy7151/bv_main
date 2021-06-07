@@ -62,16 +62,6 @@
 	<!-- SLIDER -->
 
 	<div class="post-slider">
-        <h1 class="sider-title">WHERE ARE YOU GOING?</h1>
-        <div class="post-wrapper">
-          <div class="post">1</div>
-          <div class="post">2</div>
-          <div class="post">3</div>
-          <div class="post">4</div>
-          <div class="post">5</div>
-        </div>
-	</div>
-	<div class="post-slider">
 		<div class="post-wrapper">
 			<div class="post"><h3>1</h3></div>
 			<div class="post"><h3>2</h3></div>
@@ -79,6 +69,12 @@
 			<div class="post"><h3>4</h3></div>
 			<div class="post"><h3>5</h3></div>
 			<div class="post"><h3>6</h3></div>
+			<div class="post"><h3>7</h3></div>
+			<div class="post"><h3>8</h3></div>
+			<div class="post"><h3>9</h3></div>
+			<div class="post"><h3>10</h3></div>
+			<div class="post"><h3>11</h3></div>
+			<div class="post"><h3>12</h3></div>
 		</div>	
 	</div>
 	<div style="position: fixed; z-index: 0; left: auto; bottom: 0px; width: 100%; opacity: 0.25;">
@@ -198,31 +194,31 @@
 	<div style="position: fixed; z-index: 7; left: auto; bottom: 0px; width: 100%; opacity: 1;"></div>
 
 
-	<section class="politics-slider" id="politics-slider">
+<!--	<section class="politics-slider" id="politics-slider">
 		<div class="carousel slide politics-carousel" id="politics-carousel" data-ride="carousel">
 
 			<ol class="carousel-indicators">
 				<li data-target="politics-carousel" data-slide-to="0" class="active"></li>
 				<li data-target="politics-carousel" data-slide-to="1"></li>
-			</ol> <!-- .carousel-indicators ends -->
+			</ol> .carousel-indicators ends -->
 
-			<div class="carousel-inner">
+<!--			<div class="carousel-inner">
 				<div class="item active">
 					<img class="carousel-bg" src="./img/bvp01.jpeg" alt="bluevulpe main">
 					<div class="carousel-caption">
 						<div class="caption-image">
 							<img data-animation="animated fadeInRight" src="./img/ep4.jpeg" alt="caption image">
-						</div> <!-- .caption-image ends -->
-						<div class="caption-content">
+						</div>  .caption-image ends -->
+<!--						<div class="caption-content">
 							<h1><small data-animation="animated fadeInDown">Welcome</small>  <span data-animation="animated fadeInRight">Bluevulpe's coding diary</span></h1>
 							<p data-animation="animated fadeInUp">
 								Hi. There! Here is Bluevulpe's coding diary.<br>you can see contents for who starts to code<br>with git repo and books
 							</p>
 							<button class="btn btn-main btn-lg" data-animation="animated fadeInUp"><a href="">See More</a></button>
-						</div> <!-- .caption-content ends -->
+						</div>  .caption-content ends
 						
-					</div> <!-- .carousel-caption ends -->
-				</div> <!-- .item active ends -->
+					</div> .carousel-caption ends -->
+<!--				</div>  .item active ends
 				<div class="item">
 					<img class="carousel-bg" src="./img/pf1.JPG" alt="carousel image">
 					<div class="carousel-caption">
@@ -235,25 +231,25 @@
 								Bluevulpe always feels honor to be with you all:)
 							</p>
 							<button class="btn btn-main btn-lg" data-animation="animated fadeInUp"><a href="https://clubhousedb.com/user/egoi_ja270" target="_new">Start a Room</a></button>
-						</div> <!-- .caption-content ends -->
+						</div>  .caption-content ends -->
 						
-					</div> <!-- .carousel-caption ends -->
-				</div> <!-- .item active ends -->
-			</div> <!-- .carousel-inner ends -->
+<!--					</div> .carousel-caption ends 
+				</div>  .item active ends
+			</div>  .carousel-inner ends -->
 
 			<!-- CONTROLS -->
-			<a class="left carousel-control" href="#politics-carousel" role="button" data-slide="prev">
+<!--			<a class="left carousel-control" href="#politics-carousel" role="button" data-slide="prev">
 				<span class="icon ion-ios-arrow-back" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
-			</a> <!-- .left carousel-control ends -->
+			</a>  .left carousel-control ends -->
 
-			<a class="right carousel-control" href="#politics-carousel" role="button" data-slide="next">
+<!--			<a class="right carousel-control" href="#politics-carousel" role="button" data-slide="next">
 				<span class="icon ion-ios-arrow-forward" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>
 			</a> <!-- .right carousel-control ends -->
 
-		</div> <!-- .carousel slide ends -->
-	</section> <!-- .politics-slider ends -->
+<!--		</div> <!-- .carousel slide ends -->
+<!--	</section> <!-- .politics-slider ends -->
 
 	<!-- INTRO SECTION -->
 
@@ -361,10 +357,13 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script>
 		$('.post-wrapper').slick({
-			slidesToShow: 2,
-			slidesToScroll: 2,
-			autoplay: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: false,
 			autoplaySpeed: 50,
+		});
+		$('.post-wrapper').on('click', function(){
+			$('.post-wrapper').slick('slickNext');
 		});
 	</script>
 	<script type="text/javascript">
