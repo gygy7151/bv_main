@@ -294,12 +294,22 @@
 			autoplay: false,
 			autoplaySpeed: 500,
 		});
-		$('.post-wrapper').on('mousemove', function(){
+		/*$('.post-wrapper').on('mousemove', function(){
 			$('.post-wrapper').slick('slickNext');
         });
         $('.post').on('mouseleave', function(){
 		    $('.post-wrapper').slick('slickPrev');
-        });
+        });*/
+
+		$('.post-wrapper').on('mousemove', function(){
+            x = event.pageX;
+            y = event.pageY;
+            if(x < 742) {
+    			$('.post-wrapper').slick('slickPrev');
+            }else if(x > 742) {
+                $('.post-wrapper').slick('slickNext');
+            }
+		});
 	</script>
 
 </body>

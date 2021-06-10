@@ -132,6 +132,9 @@
                 </div>
             </div>
         </div>
+        <div>
+            <span id="test"></span>
+        </div>
         <div
             style="position: fixed; z-index: 0; left: auto; bottom: 0px; width: 100%; opacity: 0.25;">
             <div
@@ -997,9 +1000,25 @@ var background = '#999999'; // grey
 			autoplaySpeed: 50,
 		});
 		$('.post-wrapper').on('mouseover', function(){
-			$('.post-wrapper').slick('slickNext');
+            x = event.pageX;
+            y = event.pageY;
+            if(x < 188) {
+    			$('.post-wrapper').slick('slickPrev');
+            }else if(x > 188) {
+                $('.post-wrapper').slick('slickNext');
+            }
 		});
+        
 	</script>
+    <script>
+        var test = $('#test');
+        test.click(function (event) {
+            x = event.pageX;
+            y = event.pageY;
+            alert('x좌표:'+ x +'.y좌표:'+y);
+        })
+        // 수평 및 수직 위치 값을 가져옴
+    </script>
 	<script type="text/javascript">
 		// <![CDATA[
 		var ranges=4; // number of mountain ranges
