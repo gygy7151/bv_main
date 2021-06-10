@@ -84,10 +84,15 @@
 {
     float: right;
 }
+
 .slick-slide img
 {
     display: block;
+    width: 165px;
+    height: 690px;
+
 }
+    
 .slick-slide.slick-loading img
 {
     display: none;
