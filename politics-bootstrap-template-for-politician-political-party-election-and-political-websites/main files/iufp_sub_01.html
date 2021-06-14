@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=1156, initial-scale=1">
+	<meta name="viewport" content="width=device=width, initial-scale=1, maximum-scale=1">
 	<title>Politics - A template for politician, political party and election</title>
     <!-- SPDX-FileCopyrightText: © 2021 bluevulpe <llare4667@gmail.com>SPDX-License-Identifier: BSD-3-Clause-->
 
@@ -304,12 +304,28 @@
 		$('.post-wrapper').on('mousemove', function(){
             x = event.pageX;
             y = event.pageY;
-            if(x < 742) {
+            if(x < (window.innerWidth / 2)) {
     			$('.post-wrapper').slick('slickPrev');
-            }else if(x > 742) {
+            }else {
                 $('.post-wrapper').slick('slickNext');
             }
 		});
+
+		/*Basic Screen Size*/
+		/*$(window).resize(function() {
+			if($(window).width() =1923) {
+				$('.post-wrapper').on('mousemove', function(){
+				x = event.pageX;
+				y = event.pageY;
+				if(x < 961) {
+					$('.post-wrapper').slick('slickPrev');
+				}else if(x > 961) {
+					$('.post-wrapper').slick('slickNext');
+				}
+				});
+			}
+		})*/
+
 	</script>
 
 </body>
